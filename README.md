@@ -33,7 +33,7 @@ Through these labs, you'll develop expertise in:
 
 | Lab Name | Difficulty | Category | Skills | Status | Writeup |
 |----------|------------|----------|---------|---------|---------|
-| **[Oski](./oski-lab/)** | ![Easy](https://img.shields.io/badge/Easy-green) | Malware Analysis | Hash Analysis, Sandbox, MITRE ATT&CK | ✅ Complete | [📖 View]([https://github.com/3stefani/Cyberdefenders-writeups/blob/main/CiberDefenders/Oski/README.md]) |
+| **[Oski](./oski-lab/)** | ![Easy](https://img.shields.io/badge/Easy-green) | Malware Analysis | Hash Analysis, Sandbox, MITRE ATT&CK | ✅ Complete | [📖 View](./CiberDefenders/Oski/README.md]) |
 | **[WebStrike](./webstrike-lab/)** | ![Medium](https://img.shields.io/badge/Medium-orange) | Web Security | Log Analysis, Attack Reconstruction | ✅ Complete | [📖 View](./webstrike-lab/README.md) |
 
 ### 📊 Statistics
