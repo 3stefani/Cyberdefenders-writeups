@@ -5,7 +5,7 @@
 ![Category](https://img.shields.io/badge/Category-Malware%20Analysis-red)
 ![Tools](https://img.shields.io/badge/Tools-VirusTotal%2C%20Any.run-orange)
 
-## 📋 Lab Info
+## Lab Info
 
 | Property | Value |
 |----------|-------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This writeup covers the analysis of the **Oski Lab** from CyberDefenders, focusing on malware analysis techniques used by SOC analysts. The lab demonstrates the investigation of a suspicious PowerPoint file that triggered a SIEM alert, requiring detailed forensic analysis to understand the threat.
 
@@ -30,7 +30,7 @@ This writeup covers the analysis of the **Oski Lab** from CyberDefenders, focusi
 
 ---
 
-## 📖 Scenario
+## Scenario
 
 > *The accountant at the company received an email titled "Urgent New Order" from a client late in the afternoon. When he attempted to access the attached invoice, he discovered it contained false order information. Subsequently, the SIEM solution generated an alert regarding downloading a potentially malicious file. Upon initial investigation, it was found that the PPT file might be responsible for this download. Could you please conduct a detailed examination of this file?*
 
@@ -41,7 +41,7 @@ This writeup covers the analysis of the **Oski Lab** from CyberDefenders, focusi
 
 ---
 
-## 🔍 Analysis Methodology
+## Analysis Methodology
 
 ### Phase 1: Hash-Based Threat Intelligence
 
@@ -70,7 +70,7 @@ MD5: 12c1842c3ccafe7408c23ebf292ee3d9
 
 ---
 
-## 📊 Questions & Solutions
+## Questions & Solutions
 
 ### Q1: Malware Creation Time
 **Question:** *Determining the creation time of the malware can provide insights into its origin. What was the time of malware creation?*
@@ -188,7 +188,7 @@ cmd.exe /c timeout /t 5 /nobreak & del /q /f C:\ProgramData\vpn.exe
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Category | Tools | Purpose |
 |----------|-------|---------|
@@ -199,7 +199,7 @@ cmd.exe /c timeout /t 5 /nobreak & del /q /f C:\ProgramData\vpn.exe
 
 ---
 
-## 🔄 Attack Timeline
+## Attack Timeline
 
 1. **Initial Infection** (T+0s): PowerPoint file executed
 2. **Library Loading** (T+1s): SQLite3.dll imported for data operations
@@ -211,7 +211,7 @@ cmd.exe /c timeout /t 5 /nobreak & del /q /f C:\ProgramData\vpn.exe
 
 ---
 
-## 🎯 Key Takeaways
+## Key Takeaways
 
 ### Technical Insights
 * **Hash Analysis:** Essential first step for malware identification
@@ -233,7 +233,7 @@ cmd.exe /c timeout /t 5 /nobreak & del /q /f C:\ProgramData\vpn.exe
 
 ---
 
-## 📚 References
+## References
 
 * [MITRE ATT&CK T1555 - Credentials from Password Stores](https://attack.mitre.org/techniques/T1555/)
 * [Any.run Analysis Report](https://any.run/report/a040a0af8697e30506218103074c7d6ea77a84ba3ac1ee5efae20f15530a19bb/d55e2294-5377-4a45-b393-f5a8b20f7d44)
