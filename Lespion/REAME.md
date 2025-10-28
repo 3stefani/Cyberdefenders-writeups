@@ -3,7 +3,7 @@
 ![CyberDefenders](https://img.shields.io/badge/CyberDefenders-Threat%20Intel-blue)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 ![Category](https://img.shields.io/badge/Category-Threat%20Intelligence-red)
-![Tools](https://img.shields.io/badge/Tools-Sherlock%2C%20TinEye%2C%20CyberChef-orange)
+![Tools](https://img.shields.io/badge/Tools-Sherlock%2C%20TinEye%2C%20CyberChef%2C%20Google-orange)
 
 ## Lab Info
 
