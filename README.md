@@ -35,6 +35,8 @@ Through these labs, you'll develop expertise in:
 |----------|------------|----------|---------|---------|---------|
 | **[Oski](https://cyberdefenders.org/blueteam-ctf-challenges/oski/)** | ![Easy](https://img.shields.io/badge/Easy-green) | Malware Analysis | Hash Analysis, Sandbox, MITRE ATT&CK | ✅ Complete |[📖 View](./Oski/README.md) |
 | **[WebStrike](./webstrike-lab/)** | ![Medium](https://img.shields.io/badge/Medium-orange) | Web Security | Log Analysis, Attack Reconstruction | ✅ Complete | [📖 View](./webstrike-lab/README.md) |
+| **[Lespion](Lespion/REAME.md)** | ![Easy](https://img.shields.io/badge/Easy-green) | Threat Intelligence | OSINT | ✅ Complete | [📖 View](Lespion/REAME.md) |
+
 
 ### 📊 Statistics
 
