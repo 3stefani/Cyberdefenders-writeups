@@ -6,15 +6,38 @@
 ![SOC](https://img.shields.io/badge/Role-SOC%20Analyst-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## 📋 Overview
+## Overview
 
 Welcome to my collection of **CyberDefenders Blue Team** writeups! This repository contains detailed analysis and solutions for various SOC analyst challenges, focusing on defensive cybersecurity techniques, threat hunting, and incident response.
 
 **CyberDefenders** is a premier platform for blue team training, offering hands-on labs that simulate real-world security incidents. These writeups demonstrate practical skills essential for SOC analysts, threat hunters, and cybersecurity defenders.
 
+## Skills Relevance for Corporate Intelligence
+
+These SOC challenges directly apply to **KPMG Forensic Intelligence** work:
+
+**Lespion Lab** demonstrates:
+- ✅ **OSINT investigation** for insider threat detection
+- ✅ **Username enumeration** across platforms (Sherlock)
+- ✅ **Social media intelligence** (Instagram, GitHub profiling)
+- ✅ **Geolocation techniques** (identifying locations from images)
+- ✅ **Image analysis** (reverse search, metadata)
+
+**Oski Lab** demonstrates:
+- ✅ **Malware analysis** using threat intelligence platforms
+- ✅ **Sandbox analysis** (Any.run behavioral analysis)
+- ✅ **C2 server identification** (network IOCs)
+- ✅ **MITRE ATT&CK** framework application
+- ✅ **Timeline reconstruction** of security incidents
+
+**Applications**:
+- Due diligence investigations (background checks)
+- Corporate fraud detection (insider threats)
+- Threat intelligence gathering
+- Incident response support
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 Through these labs, you'll develop expertise in:
 
@@ -27,7 +50,7 @@ Through these labs, you'll develop expertise in:
 
 ---
 
-## 📚 Writeups Collection
+## Writeups Collection
 
 ### 🔵 SOC Analyst Tier 1 Labs
 
@@ -38,7 +61,7 @@ Through these labs, you'll develop expertise in:
 | **[Lespion](Lespion/REAME.md)** | ![Easy](https://img.shields.io/badge/Easy-green) | Threat Intelligence | OSINT | ✅ Complete | [📖 View](Lespion/REAME.md) |
 
 
-### 📊 Statistics
+### Statistics
 
 - **Total Labs:** 2
 - **Completed:** 2 
@@ -48,7 +71,7 @@ Through these labs, you'll develop expertise in:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 ### Primary Analysis Tools
 | Category | Tools Used |
@@ -67,9 +90,9 @@ Through these labs, you'll develop expertise in:
 
 ---
 
-## 🎓 Lab Descriptions
+## Lab Descriptions
 
-### 🔍 Oski Lab - Malware Analysis Fundamentals
+### Oski Lab - Malware Analysis Fundamentals
 **Scenario:** Investigation of malicious PowerPoint file that triggered SIEM alerts
 
 **Key Learning Points:**
@@ -83,7 +106,7 @@ Through these labs, you'll develop expertise in:
 
 ---
 
-### 🌐 WebStrike Lab - Web Attack Investigation  
+### WebStrike Lab - Web Attack Investigation  
 **Scenario:** Analysis of web application attack patterns and log forensics
 
 **Key Learning Points:**
@@ -97,7 +120,7 @@ Through these labs, you'll develop expertise in:
 
 ---
 
-## 📈 Learning Path Progression
+## Learning Path Progression
 
 ```mermaid
 graph TD
@@ -112,7 +135,7 @@ graph TD
 
 ---
 
-## 🎯 Career Relevance
+## Career Relevance
 
 These labs directly prepare you for:
 
@@ -129,7 +152,7 @@ These labs directly prepare you for:
 
 ---
 
-## 📋 Usage Guidelines
+## Usage Guidelines
 
 ### For Students
 1. **Read the scenario** carefully before starting analysis
@@ -146,7 +169,7 @@ These labs directly prepare you for:
 
 ---
 
-## 🔗 Additional Resources
+## Additional Resources
 
 ### Official Platforms
 - [CyberDefenders Platform](https://cyberdefenders.org/)
@@ -160,7 +183,7 @@ These labs directly prepare you for:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found an issue or have suggestions? Feel free to:
 
@@ -179,16 +202,8 @@ Found an issue or have suggestions? Feel free to:
 > 
 > **Always follow responsible disclosure practices and your organization's security policies.**
 
----
-
-## 📧 Contact
-
-**Questions about the writeups?** 
-- Open an issue for technical questions
-- Connect on LinkedIn for career discussions
-- Follow for updates on new labs and techniques
 
 ---
 
-*Last Updated: September 2025*  
+*Last Updated: January 2026*  
 *Next Lab: TBD - Advanced Forensics Challenge*
